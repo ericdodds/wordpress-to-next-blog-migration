@@ -1,6 +1,8 @@
 # WordPress to Next.js blog migration
 I used Cursor to migrate [my blog](https://github.com/ericdodds/eric-dodds-blog) from WordPress to Next.js. This is a Cursor-generated, edited overview of the process and the scripts used. You can use Cursor to run the process yourself, but will likely save even more time by giving the LLM the full context of my blog repo and this migration repo. 
 
+I also [wrote a blog post](https://www.ericdodds.com/blog/migrating-my-wordpress-blog-to-nextjs-and-vercel?utm_source=github-migration-repo) about the migration that includes more detail on history and process, including trickiest edge cases I faced. 
+
 ## Overview
 
 This guide documents the successful migration of a WordPress blog with 230+ posts to a Next.js application using the Vercel Blog Starter template. The migration involved converting WordPress XML exports to MDX files while preserving formatting, images, footnotes, and internal links.
